@@ -1,0 +1,11 @@
+.scorebox {
+    background-color:#21222A;
+    width: 250px;
+    height: 30px;
+    margin: 0px 100px;
+    color: white;
+    border-radius: 1em;
+    font-size: 30px;
+    padding: 20px;
+    
+}

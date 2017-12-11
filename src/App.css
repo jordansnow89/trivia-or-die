@@ -1,0 +1,50 @@
+.head {
+  background-color: black;
+  width:100%;
+  height:30vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+}
+
+img {
+  max-width: 100%;
+  height:100px ;
+}
+.logobox {
+  height: 100%;
+  width: 60%;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  background-color: black;
+}
+.body {
+  display: block;
+  background-color: #333333;
+  height: 100%;
+}
+
+
+.navbar {
+  
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin: 30px 10px;
+
+}
+
+.highscore {
+  height: 100px;
+  margin: 10px;
+  position:fixed;
+  bottom:0;
+  left:0;
+}

@@ -1,0 +1,16 @@
+.addcontainer {
+    background-color: #3FB1EA;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	align-content: stretch;
+    margin: 50px 50px 0px;
+    height: 90%;
+    border-radius: 10px;
+    color: white;
+    font-size: 10px;
+    width: 83%;
+    font-size: 20px;
+}

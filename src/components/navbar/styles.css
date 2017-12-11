@@ -1,0 +1,7 @@
+.navbar {
+    display: block;
+    height: 400px;
+    width: 150px;
+    background-color: #FFE100;
+    border-radius: 1em;
+}
