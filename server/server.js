@@ -12,10 +12,11 @@ const port = 3001;
 const controller = require("./controllers/control.js");
 
 app.get("/api/getApiData", controller.getApiData);
-app.get("/api/getGiphy", controller.getGiphy )
+app.get("/api/getGiphy", controller.getGiphy)
 app.post("/api/addFavorite", controller.addQuestion)
 app.delete("/api/deleteFavorite", controller.deleteQuestion)
+app.get("/api/getWrong", controller.getWrong)
 
 app.listen(port, () => {
-    console.log(  `Listening on port ${port}  `);
+    console.log(`Listening on port ${port}  `);
 });

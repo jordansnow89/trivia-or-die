@@ -1,15 +1,13 @@
 import React, { Component } from "react";
 import './styles.css'
 
-export default class Navbar extends Component {
-
-render(){
-    return(
+const Navbar = () => {
+    return (
         <div className="navbar">
-            <p className="navbartext"> This is a Nav Bar </p>
+            <p className="navbartext"> Functional Component BOOOY </p>
         </div>
     )
-}
 
 
 }
+export default Navbar
