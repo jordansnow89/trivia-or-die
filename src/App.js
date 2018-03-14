@@ -47,7 +47,9 @@ class App extends Component {
         </div>
         <ApiCaller addFavorite = {this.addFavorite} updateScore={this.updateScore}/>
         <HighScore className="highscore" highscore={this.state.highscore}/>
-        <Navbar className="navbar"/>
+
+        {/* <Navbar className="navbar"/>  */}
+        
         <Add favorites = {this.state.favorites} deleteFavorite = {this.deleteFavorite} />  
       </div>
     );
